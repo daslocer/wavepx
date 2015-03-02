@@ -1,5 +1,3 @@
-'use strict'
-
 /**
  * Animation library called Wave.js
  * @company BrandUP

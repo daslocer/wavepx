@@ -2,6 +2,7 @@
  * Animation library.
  */
 var animator = (function () {
+	'use strict'
 	var animations = [],
 		calculations = {},
 		cache = {},
@@ -9,7 +10,7 @@ var animator = (function () {
 			animator: false,
 			calculator: false
 		},
-		interval = settings.interval,
+		interval = 1000 / 25, // FPS
 		performance = {
 			animator: [],
 			calculator: [],
